@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib as pyplot.plt
+import matplotlib.pyplot as plt
 
 def draw_molecule(coordinates, symbols, draw_bonds=None, save_location=None, dpi=300):
     

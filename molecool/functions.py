@@ -13,12 +13,6 @@ import matplotlib.pyplot as plt
 
 from mpl_toolkits.mplot3d import Axes3D
 
-import open_files
-import write_files
-import sturcture_calculations
-import bond_calculations
-
-
 def canvas(with_attribution=True):
     """
     Placeholder function to show example docstring (NumPy format)
