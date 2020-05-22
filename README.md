@@ -24,6 +24,9 @@ Features should be developed on branches. To create and switch to branch, use th
 To switch to an existing branch, use
 'git checkout branch_name'
 
+
+Added information about pull request
+
 ### Copyright
 
 Copyright (c) 2020, Salman Bin Kashif
