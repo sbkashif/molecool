@@ -11,6 +11,9 @@ def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
             if distance > min_bond and distance < max_bond:
                 bonds[(atom1, atom2)] = distance
 
+    if min_bond<0:
+        raise ValueError("Minimum value of min_bond should be zero")
+
     return bonds
 
 

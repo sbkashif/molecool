@@ -9,6 +9,9 @@ def draw_molecule(coordinates, symbols, draw_bonds=None, save_location=None, dpi
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
     
+    if len(symbols)!=len(coordinates):
+        raise Exception("Length of symbols and coordinates should be same")
+    
     # Get colors - based on atom name
     colors = []
     for atom in symbols:
