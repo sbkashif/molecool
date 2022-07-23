@@ -7,6 +7,7 @@ A Python package for analyzing and visualizing xyz files. For MolSSI Workshop Py
 from .functions import *
 from .molecule import build_bond_list
 from .measure import calculate_distance
+from .measure import calculate_angle
 from .visualize import draw_molecule, bond_histogram
 from .atom_data import atomic_weights, atom_colors
 from .io import open_pdb, open_xyz,write_xyz
